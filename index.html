@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>日記</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>日記を書く</h1>
+    <div id="diaryForm">
+        <label for="date">日付:</label>
+        <input type="date" id="date" value=""><br><br>
+
+        <label for="text">本文:</label><br>
+        <textarea id="text" rows="10" cols="50"></textarea><br><br>
+
+        <label for="free1">自由入力欄1:</label>
+        <input type="text" id="free1"><br><br>
+
+        <label for="free2">自由入力欄2:</label>
+        <input type="text" id="free2"><br><br>
+
+        <button id="saveButton">保存</button>
+    </div>
+
+    <h2>日記一覧</h2>
+    <div id="diaryList">
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

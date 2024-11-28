@@ -1,0 +1,9 @@
+/* 必要に応じてスタイルを追加 */
+#diaryForm label, #diaryForm input, #diaryForm textarea {
+    display: block; /* ラベルと入力欄を縦に並べる */
+    margin-bottom: 10px; 
+}
+
+#diaryList {
+    margin-top: 20px;
+}
